@@ -1,34 +1,52 @@
 body {
-    font-family: Roboto;
-  }
-  
-  .tela-inicio {
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  .logo {
-    width: 177px;
-    margin-top: 234px;
-    margin-bottom: 260px;
-  }
-  .inicia-rodada {
-    width: 345px;
-    height: 72px;
-    border: 3px solid #ffef61;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .next {
-    margin-left: 7px;
-  }
-  .inicia-rodada p {
-    font-weight: bold;
-    font-size: 20px;
-  }
-  
+  font-family: Roboto;
+}
+
+.tela-inicio {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.logo {
+  width: 177px;
+  margin-top: 234px;
+  margin-bottom: 260px;
+}
+.inicia-rodada {
+  width: 345px;
+  height: 72px;
+  border: 3px solid #ffef61;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.next {
+  margin-left: 7px;
+}
+.inicia-rodada p {
+  font-weight: bold;
+  font-size: 20px;
+}
+.tela-flashcards {
+  background-color: brown;
+  height: 100vh;
+}
+
+.topo img {
+  margin-top: 26px;
+  margin-left: 26px;
+}
+.tela-flashcards .container {
+  display: flex;
+  justify-content: center;
+}
+.flashcard {
+  margin-top: 144px;
+  width: 392px;
+  height: 575.75px;
+  background-color: chocolate;
+}
