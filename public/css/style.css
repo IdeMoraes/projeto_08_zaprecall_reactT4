@@ -3,7 +3,7 @@ body {
 }
 
 .tela-inicio {
-  background-color: aquamarine;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,21 +32,23 @@ body {
   font-size: 20px;
 }
 .tela-flashcards {
-  background-color: brown;
+  background-color: #ffff;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.topo{width: 100%; display: flex;justify-content: start;}
 
 .topo img {
   margin-top: 26px;
   margin-left: 26px;
 }
-.tela-flashcards .container {
-  display: flex;
-  justify-content: center;
-}
-.flashcard {
-  margin-top: 144px;
-  width: 392px;
-  height: 575.75px;
-  background-color: chocolate;
-}
+
+.container{position: relative; height: 575.75px; margin-top: 144px; width: 392px;display: block;}
+.flashcard{position: absolute;width: 100%;height: 100%;transform-style: preserve-3d;transition: all 0.5s ease;}
+.flashcard-virada{transform: rotateY(180deg)}
+.thefront{position: absolute;width: 100%;height: 100%;backface-visibility: hidden;background-color: #A7E9AF;display: flex;flex-direction: column;flex-wrap: wrap;justify-content: space-between;align-items: center;}
+.theback{position: absolute;width: 100%;height: 100%;backface-visibility: hidden;transform: rotateY(180deg);background-color: #A7E9AF;display:flex;justify-content: center;align-items: center;}
+
