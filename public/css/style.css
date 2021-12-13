@@ -1,0 +1,34 @@
+body {
+    font-family: Roboto;
+  }
+  
+  .tela-inicio {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .logo {
+    width: 177px;
+    margin-top: 234px;
+    margin-bottom: 260px;
+  }
+  .inicia-rodada {
+    width: 345px;
+    height: 72px;
+    border: 3px solid #ffef61;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .next {
+    margin-left: 7px;
+  }
+  .inicia-rodada p {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
